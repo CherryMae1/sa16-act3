@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dev Portfolio</title>
+
+      <style>
+        .project {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+      
+        .project-content {
+          flex: 1;
+          margin-right: 20px;
+          margin-left: 20px;
+          margin-top: 0;
+          font-size: 20px;
+        }
+      
+        .project-images {
+          flex: 1;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+      
+        .project-images img {
+          max-width: calc(33.33% - 10px);
+        }
+      
+        .button-container {
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+        }
+      
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          font-size: 16px;
+          text-align: center;
+          text-decoration: none;
+          cursor: pointer;
+          border: 2px solid #007bff;
+          color: #007bff;
+          border-radius: 5px;
+          font-weight: bold;
+          }
+      </style>
+  </head>
+
+  <body>
+
+    <div class="button-container">
+      <a href="/home/" class="btn">Home</a>
+      <a href="/about/" class="btn">About</a>
+      <a href="/work/" class="btn">Work</a>
+      <a href="/contact/" class="btn">Contact</a>
+    </div>
+    
+    <main>
+    
+    <div class="project">
+      <div class="project-content">
+    
+        <h2>Project 1: Personal Website</h2>
+        <h3>Description:</h3>
+        <p>
+          Designed my personal website to showcase my skills and projects in a more visually appealing and user-friendly manner.
+        </p>
+    
+        <h3>Key Accomplishments:</h3>
+    
+        <p>
+          Implemented a responsive design to ensure optimal viewing experience across devices.
+          Integrated custom animations and transitions to enhance user engagement.
+          Optimized website performance for faster load times and improved user experience.
+        </p>
+    
+        <h3>Technologies Used:</h3>
+    
+        <p>
+          HTML5
+          CSS3 (Bootstrap)
+          JavaScript (jQuery)
+        </p>
+      </div>
+    
+      <div class="project-images">
+      <img src="/media/images/code.jpeg" alt="Code">
+      <img src="/media/images/bootstrap.jpg" alt="Bootstrap">
+      <img src="/media/images/website.jpg" alt="Website">
+    </div>
+    </div>
+    
+    <div class="project">
+      <div class="project-content">
+    
+        <h2>Project 2: Chatbot for Customer Support</h2>
+    
+        <h3>Description:</h3>
+        <p>
+        Developed a chatbot to provide automated customer support for a web-based service. The chatbot assists users with common inquiries, provides relevant information, and guides them through troubleshooting steps.
+        </p>
+    
+        <h3>Key Accomplishments:</h3>
+        <p>
+          Integrated the chatbot with the web-based service's backend system to access user data and provide personalized assistance.
+          Designed conversational flows and scripted dialogues to engage users in interactive conversations and maintain a conversational tone.
+          Enhanced the chatbot's capabilities over time through continuous learning and refinement based on user interactions and feedback.
+        </p>
+    
+        <h3>Technologies Used:</h3>
+        <p>
+          HTML5
+          CSS3 (Bootstrap)
+          JavaScript (React.js)
+          Node.js
+          Socket.IO
+        </p>
+      </div>
+    
+      <div class="project-images">
+        <img src="/media/images/chatbot.jpeg" alt="Chatbot">
+        <img src="/media/images/node.jpg" alt="Node.js">
+        <img src="/media/images/socket.jpg" alt="Socket">
+      </div>
+    </div>
+  </body>
+</html>
+
